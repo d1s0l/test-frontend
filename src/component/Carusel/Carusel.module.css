@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('/Welcome/font/Jost-Regular.tts') format('tts');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Forum';
+    src: url('/Welcome/font/Forum-Regular.tts') format('tts');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+.Welcome{
+    width: 100%;
+    height: 700px;
+    background-color: #030201;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back1568{
+    max-width: 1568px;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    z-index: 0;
+}
+.setka{
+    position: relative;
+    width: 100%;
+    max-width: 1216px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.info{
+    width: 594px;
+    height: 380px;
+}
+.title{
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 100%;
+    color: #bb8c5f;
+    margin: 0;    
+}
+.mintxt{
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 140%;
+    color: #faf6f2;
+    margin: 30px 0px 60px 0;    
+}
+.right{
+    width: 40px; 
+    height: 334px;
+}
+@media (min-width: 1920px){
+    .back425{
+        display: none;
+     }
+    .back1568{
+        display: block;
+    }
+    .back1440{
+        display: none;
+    }
+    .back1024{
+        display: none;
+    }
+    .back768{
+        display: none;
+     }
+    .down{
+        display: none;
+    }
+    .buttonphone{
+        display: none;
+    }
+
+
+  
+}
+@media (max-width: 1920px){
+    .back425{
+        display: none;
+     }
+    .back1568{
+        display: block;
+    }
+    .back1440{
+        display: none;
+    }
+    .back768{
+        display: none;
+     }
+    .down{
+        display: none;
+    }
+    .buttonphone{
+        display: none;
+    }
+}
+@media (max-width: 1440px){
+    .down{
+        display: none;
+    }
+    .back1568{
+        display: none;
+    }
+    .back1440{
+        max-width: 1440px;
+        width: 100%;
+        display: block;
+        height: 700px;
+        position: absolute;
+        z-index: 0;
+    }
+    .back768{
+       display: none;
+    }
+    .back425{
+        display: none;
+     }
+     .buttonphone{
+        display: none;
+    }
+
+}
+@media (max-width: 768px) {
+    .buttonphone{
+        display: none;
+    }
+    .back425{
+        display: none;
+     }
+    .Welcome{
+        height: 536px;
+        align-items: start;
+    }
+    .back1568{
+        display: none;
+    }
+    .back1440{
+        display: none;
+    }
+    .back768{
+        max-width: 768px;
+        width: 100%;
+        display: block;
+        height: 536px;
+        position: absolute;
+        z-index: 0;
+
+    }
+    .setka{
+        position: relative;
+        width: 100%;
+        max-width: 727px;
+        align-items: start;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        z-index: 1;
+    }
+
+    .info{
+        margin-top: 48px;
+        width: 476px;
+        height: 330px;
+
+    }
+    .title{
+        font-family: Forum;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: left;
+        margin: 0;
+    }
+    .mintxt{
+        width: 431px;
+        height: 70px;
+        font-family: Jost;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .right{display: none;}
+    .down{
+        display: block;
+        width: 140px;
+        height: 16px;
+        margin-top: 70px;
+        align-self: center;
+    }
+}
+@media (max-width: 425px) {
+    .down{display: none;}
+    .back768{display: none;}
+    .Welcome{
+        height: 641px;
+        flex-direction: column;
+        background-color: #0A0807;
+        ;
+    }
+    .back425{
+        display: block;
+        width: 100%;
+        height: 321px;
+    }
+    .setka{
+        height: 320px;
+        max-width: 425px;
+        margin: 0;
+        align-items: center;
+        
+    }
+    .info{
+        margin-top: 10px;
+        width: 310px;
+     }
+    .title{
+        width: 280px;
+        height: 70px;
+        font-family: Forum;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: left;
+    }
+    .mintxt{
+        width: 280px;
+        height: 84px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: Jost;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+    }
+    .button{
+        display: none;  
+    }
+    .buttonphone{
+        display: block;
+    }  
+}
+@media (max-width:320px) {
+    .setka{
+        max-width: 310px;
+        width: 100%;
+    }
+    .title{
+        margin-left: 20px;
+    }
+    .mintxt{
+        margin-left: 20px;
+    }
+    .buttonphone{
+        margin-left: 5px;
+    }
+    
+}
