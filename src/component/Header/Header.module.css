@@ -296,6 +296,7 @@ font-style: normal;
 @media (min-width: 1024px) {
   .menu{display: none;}
   .inner{height: 160px;}
+  .promocode{display: block;}
 }
 @media (max-width: 768px) {
   .catalog{display: none;}
