@@ -250,6 +250,41 @@ font-style: normal;
   height: 26px;
   display: flex;
   justify-content: space-between;
+  
+}
+.promocode{
+  color: #faf6f2;
+  font-family: Jost;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px;
+  white-space: pre; 
+}
+.skidki{
+  color: #faf6f2;
+  font-family: Jost;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px;
+  white-space: pre;  
+}
+.help{
+  color: #faf6f2;
+  font-family: Jost;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px;
+  white-space: pre; 
+}
+.aboutus{
+  color: #faf6f2;
+  font-family: Jost;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px;
+  white-space: pre; 
+}
+.cont{
   color: #faf6f2;
   font-family: Jost;
   font-size: 17px;

@@ -66,11 +66,11 @@ export default function Header() {
                     </div>
                     <div className={styles.rightdown}>
                         <div className={styles.prom}>
-                            <a href='#'>Промокоды</a>
-                            <a href='#'>Скидки</a>
-                            <a href='#'>Помощь</a>
-                            <a href='#'>О нас</a>
-                            <a href='#'>Контакты</a>
+                            <a className={styles.promocode} href='#'>Промокоды</a>
+                            <a className={styles.skidki} href='#'>Скидки</a>
+                            <a className={styles.help} href='#'>Помощь</a>
+                            <a className={styles.aboutus} href='#'>О нас</a>
+                            <a className={styles.cont} href='#'>Контакты</a>
                         </div> 
                     </div>
                 </div>
