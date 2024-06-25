@@ -237,60 +237,56 @@ font-style: normal;
 .rightdown {
   width: 560px;
   height: 46px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
   display: flex;
   align-items: center;
- 
-}
-
-.prom {
-  width: 560px;
-  height: 26px;
-  display: flex;
-  justify-content: space-between;
   
-}
-.promocode{
-  color: #faf6f2;
-  font-family: Jost;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 25.5px;
-  white-space: pre; 
-}
-.skidki{
-  color: #faf6f2;
-  font-family: Jost;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 25.5px;
-  white-space: pre;  
-}
-.help{
-  color: #faf6f2;
-  font-family: Jost;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 25.5px;
-  white-space: pre; 
-}
-.aboutus{
-  color: #faf6f2;
-  font-family: Jost;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 25.5px;
-  white-space: pre; 
-}
-.cont{
-  color: #faf6f2;
-  font-family: Jost;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 25.5px;
-  white-space: pre; 
+  .prom {
+    width: 560px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    
+    .promocode{
+      color: #faf6f2;
+      font-family: Jost;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+    white-space: pre; 
+    }
+    .skidki{
+      color: #faf6f2;
+      font-family: Jost;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      white-space: pre;  
+    }
+    .help{
+      color: #faf6f2;
+      font-family: Jost;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      white-space: pre; 
+    }
+    .aboutus{
+      color: #faf6f2;
+      font-family: Jost;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      white-space: pre; 
+    }
+    .cont{
+      color: #faf6f2;
+      font-family: Jost;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.5px;
+      white-space: pre; 
+    }
+  }
 }
 
 @media (min-width: 1024px) {
